@@ -163,7 +163,7 @@ int main() {
                   else{printf("area: carta2 venceu\n");}
 
                   
-                    if(PIB > PIB2){
+                    if((PIB*1e9f) > (PIB2*1e9f)){
                           printf("PIB: carta1 venceu\n");}
                       
                   else{printf("PIB: carta2 venceu\n");}
@@ -177,7 +177,7 @@ int main() {
 
 
                      
-                 if( (1/densidade) > (1/densidade2)){
+                 if( (1.0f/densidade) > (1.0f/densidade2)){
                           printf("densidade populacional: carta1 venceu\n");}
                       
                   else{printf("densidade populacional: carta2 venceu\n");}
