@@ -64,7 +64,7 @@ int main() {
 
 
 
-    char estado[50];
+    char estado2[50];
     char codigo2[50];
     char cidade2[50];
     float PIB2;
