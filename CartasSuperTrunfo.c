@@ -35,7 +35,7 @@ int main() {
            printf("digite a área: ");
         scanf("%f" ,&area);
 
-           float percapita, densidade;
+           double percapita, densidade;
 
            percapita = (PIB * 1e9f) / (float) populacao;
            densidade = (float) populacao / area;
@@ -101,7 +101,7 @@ int main() {
            printf("digite a área: ");
        scanf("%f" ,&area2);
 
-           float percapita2, densidade2;
+         double percapita2, densidade2;
 
            percapita2 = (PIB2*1e9f) / (float) populacao2;
            densidade2 = (float) populacao2 / area2;
@@ -132,17 +132,21 @@ int main() {
 
 
                         
-                            printf("População: %d\\n", populacao > populacao2); 
+                            printf("População: %lu\\n", populacao > populacao2); 
 
                          printf("Area: %d\n", area > area2);
 
                             printf("PIB: %d\n", PIB > PIB2);
 
+                              printf("densidade: %f\n", densidade < densidade2);
+ 
+
                                printf("Pontos Turisticos: %d\n", turisticos > turisticos2);
 
-                                  printf("PIB p Capita: %d\n", percapita > percapita2);
+                                  printf("PIB p Capita: %f\n", percapita > percapita2);
 
-                                         printf("Super Poder: %d\n", super > super2);
+                                         printf("Super Poder: %f\n", super > super2);
+
  
 
              
