@@ -223,7 +223,7 @@ char carta1[50] = "carta1";
             default:
             printf("opção inválida\n");
 
-            break;
+             break;
 
          
             
